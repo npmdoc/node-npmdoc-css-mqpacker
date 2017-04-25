@@ -151,20 +151,15 @@ console.log(processed.css);
   return postcss([creator(opts)]).process(root, opts);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-var fs = require("fs");
-var postcss = require("postcss");
-
-var css = fs.readFileSync("from.css", "utf8");
-postcss([
-  require("autoprefixer-core")(),
-  require("css-mqpacker")()
-]).<span class="apidocCodeKeywordSpan">process</span>(css).then(function (result) {
-  console.log(result.css);
+    return css;
+  };
 });
-```
 
-
-### As standard Node.js package
+module.exports.pack = function (css, opts) {
+  return postcss([
+    this(opts)
+  ]).<span class="apidocCodeKeywordSpan">process</span>(css, opts);
+};
 ...</pre></li>
     </ul>
 
