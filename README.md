@@ -1,6 +1,6 @@
 # npmdoc-css-mqpacker
 
-#### api documentation for  [css-mqpacker (v5.0.1)](https://github.com/hail2u/node-css-mqpacker)  [![npm package](https://img.shields.io/npm/v/npmdoc-css-mqpacker.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-css-mqpacker) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-css-mqpacker.svg)](https://travis-ci.org/npmdoc/node-npmdoc-css-mqpacker)
+#### basic api documentation for  [css-mqpacker (v5.0.1)](https://github.com/hail2u/node-css-mqpacker)  [![npm package](https://img.shields.io/npm/v/npmdoc-css-mqpacker.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-css-mqpacker) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-css-mqpacker.svg)](https://travis-ci.org/npmdoc/node-npmdoc-css-mqpacker)
 
 #### Pack same CSS media query rules into one media query rule.
 
